@@ -1,13 +1,14 @@
 {
   "name": "extension-license-server",
   "version": "1.0.0",
-  "description": "License server for Chrome extension",
+  "description": "Secure license server for Chrome extension",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.2",
-    "cors": "^2.8.5"
+    "pg": "^8.16.3"
   }
 }
